@@ -40,3 +40,9 @@ INSERT INTO Customers (full_name, email, phone, registration_date) VALUES
 ('Samira Ouahid', 'samira.ouahid@gmail.com', '0621314151', '2025-02-02 10:10:00'),
 ('Youssef Haddad', 'youssef.haddad@gmail.com', '0632425262', '2025-02-03 14:30:00'),
 ('Lina Ajour', 'lina.ajour@gmail.com', '0643536373', '2025-02-04 11:45:00');
+
+
+INSERT INTO Advisors (full_name, email) VALUES
+('Nadia Expert', 'advisor.nadia@gmail.com'),
+('Rachid Finance', 'advisor.rachid@gmail.com'),
+('Imane Pro', 'advisor.imane@gmail.com');
