@@ -42,3 +42,7 @@ SELECT c.*
 FROM Customers c 
 JOIN Accounts a ON c.id = a.customer_id
 WHERE a.advisor_id = 2;
+
+
+-- Afficher les accounts ayant account_type = "Savings"
+SELECT * FROM Accounts WHERE account_type = 'Savings';
