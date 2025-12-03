@@ -46,3 +46,11 @@ WHERE a.advisor_id = 2;
 
 -- Afficher les accounts ayant account_type = "Savings"
 SELECT * FROM Accounts WHERE account_type = 'Savings';
+
+
+-- Afficher les transactions avec un amount ≥ 500
+SELECT * FROM Transactions WHERE amount >= 500;
+
+-- Afficher les transactions avec un amount entre 100 et 1000
+SELECT * FROM Transactions WHERE amount BETWEEN 100 AND 1000;
+
