@@ -57,3 +57,10 @@ INSERT INTO Accounts (account_number, balance, account_type, customer_id, adviso
 (777888, 31000.00, 'Business',  4, 2);
 
 
+INSERT INTO Transactions (amount, transaction_type, transaction_date, account_id) VALUES
+(350.00, 'debit',  '2025-02-10 08:10:00', 1),
+(800.00, 'credit', '2025-02-11 13:20:00', 1),
+(450.00, 'debit',  '2025-02-12 15:15:00', 2),
+(120.00, 'credit', '2025-02-13 10:50:00', 3),
+(900.00, 'debit',  '2025-02-14 16:40:00', 4),
+(1600.00,'credit', '2025-02-15 17:05:00', 5);
