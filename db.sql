@@ -46,3 +46,14 @@ INSERT INTO Advisors (full_name, email) VALUES
 ('Nadia Expert', 'advisor.nadia@gmail.com'),
 ('Rachid Finance', 'advisor.rachid@gmail.com'),
 ('Imane Pro', 'advisor.imane@gmail.com');
+
+INSERT INTO Accounts (account_number, balance, account_type, customer_id, advisor_id) VALUES
+(111222, 18000.00, 'Savings',   1, 1),
+(222333,   750.00, 'Checking',  1, 2),
+(333444, 22000.00, 'Business',  2, 1),
+(444555,    -5.00, 'Checking',  3, 2),
+(555666,  9500.00, 'Savings',   4, 3),
+(666777,  1400.00, 'Checking',  2, 1),
+(777888, 31000.00, 'Business',  4, 2);
+
+
