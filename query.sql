@@ -37,3 +37,8 @@ SELECT * FROM Transactions WHERE transaction_type = 'credit';
 -- Afficher les transactions du account_id = 1
 SELECT * FROM Transactions WHERE account_id = 1;
 
+-- Afficher les customers ayant un account géré par l’advisor_id = 2
+SELECT c.* 
+FROM Customers c 
+JOIN Accounts a ON c.id = a.customer_id
+WHERE a.advisor_id = 2;
